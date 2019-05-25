@@ -18,8 +18,8 @@
                     <thead>
                         <tr>
                             <th scope="col">Nome</th>
-                            <th scope="col">Endereço</th>
-                            <th scope="col">Telefone</th>
+                            <!-- <th scope="col">Endereço</th> -->
+                            <th scope="col">CPF</th>
                             <th scope="col">Email</th>
                             <th scope="col">Sexo</th>
                             <th scope="col">Ação</th>
@@ -29,18 +29,18 @@
                         <?php
                         include '../../banco.php';
                         $pdo = Banco::conectar();
-                        $sql = 'SELECT * FROM Usuario ORDER BY id DESC';
-                        print($pdo->query($sql));
+                        $sql = 'SELECT * FROM Usuario ORDER BY nome';
 
                         foreach($pdo->query($sql)as $row)
                         {
                             echo '<tr>';
-			                      echo '<th scope="row">'. $row['id'] . '</th>';
-                            echo '<td>'. $row['nome'] . '</td>';
-                            echo '<td>'. $row['endereco'] . '</td>';
-                            echo '<td>'. $row['telefone'] . '</td>';
-                            echo '<td>'. $row['email'] . '</td>';
-                            echo '<td>'. $row['sexo'] . '</td>';
+                            echo '<td width=250>'. $row['nome'] . '</td>';
+                            echo '<td width=250>'. $row['cpf'] . '</td>';
+                            // echo '<td width=250>'. $row['telefone'] . '</td>';
+                            echo '<td width=250>'. $row['email'] . '</td>';
+                            echo '<td width=250>';
+                            echo $row['sexo'] == 'f' ? 'Feminino' : 'Masculino';
+                            echo '</td>';
                             echo '<td width=250>';
                             echo '<a class="btn btn-primary" href="read.php?id='.$row['id'].'">Info</a>';
                             echo ' ';
