@@ -27,9 +27,10 @@
                     </thead>
                     <tbody>
                         <?php
-                        include 'banco.php';
+                        include '../../banco.php';
                         $pdo = Banco::conectar();
-                        $sql = 'SELECT * FROM pessoa ORDER BY id DESC';
+                        $sql = 'SELECT * FROM Usuario ORDER BY id DESC';
+                        print($pdo->query($sql));
 
                         foreach($pdo->query($sql)as $row)
                         {

@@ -2,10 +2,10 @@
 
 class Banco
 {
-    private static $dbNome = '';
-    private static $dbHost = '';
-    private static $dbUsuario = '';
-    private static $dbSenha = '';
+    private static $dbNome = 'MeAdotaAi';
+    private static $dbHost = 'localhost';
+    private static $dbUsuario = 'root';
+    private static $dbSenha = '123456';
     
     private static $cont = null;
     

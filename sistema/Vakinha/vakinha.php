@@ -29,7 +29,7 @@
                     </thead>
                     <tbody>
                         <?php
-                        include 'banco.php';
+                        include '../../banco.php';
                         $pdo = Banco::conectar();
                         $sql = 'SELECT * FROM pessoa ORDER BY id DESC';
 
