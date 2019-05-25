@@ -2,7 +2,7 @@ data,titulo,descricao,usuario_cpf,pet_id,status
 2019/1/30,adoção,lore ipsum,70279428286,6,0
 2019/2/27,adoção,lore ipsum,75515507983,92,1
 2019/4/18,adoção,lore ipsum,98506851238,53,0
-2019/1/8,adoção,lore ipsum,3895619400,59,1
+2019/1/8,adoção,lore ipsum,03895619400,59,1
 2019/3/9,adoção,lore ipsum,45612616562,32,0
 2019/1/25,adoção,lore ipsum,45733978929,18,1
 2019/1/3,adoção,lore ipsum,46241274201,58,0
@@ -13,7 +13,7 @@ data,titulo,descricao,usuario_cpf,pet_id,status
 2019/2/5,adoção,lore ipsum,26256205600,30,0
 2019/2/14,adoção,lore ipsum,17962467436,67,1
 2019/2/21,adoção,lore ipsum,19846644507,1,1
-2019/3/24,adoção,lore ipsum,8767434401,54,1
+2019/3/24,adoção,lore ipsum,08767434401,54,1
 2019/2/20,adoção,lore ipsum,70733431763,65,1
 2019/2/27,adoção,lore ipsum,80678328978,64,0
 2019/4/15,adoção,lore ipsum,22009364007,8,1
@@ -46,14 +46,14 @@ data,titulo,descricao,usuario_cpf,pet_id,status
 2019/3/30,adoção,lore ipsum,92386880281,63,1
 2019/2/9,adoção,lore ipsum,98144429842,71,0
 2019/1/5,adoção,lore ipsum,34627484836,57,0
-2019/1/27,adoção,lore ipsum,2371593176,24,1
+2019/1/27,adoção,lore ipsum,02371593176,24,1
 2019/2/11,adoção,lore ipsum,83625984504,38,0
 2019/2/10,adoção,lore ipsum,92829478665,5,1
 2019/1/21,adoção,lore ipsum,56126400135,72,1
 2019/4/14,adoção,lore ipsum,94520403782,19,0
 2019/4/21,adoção,lore ipsum,64884004280,21,0
 2019/1/10,adoção,lore ipsum,80071130373,83,1
-2019/4/18,adoção,lore ipsum,5944995939,51,1
+2019/4/18,adoção,lore ipsum,05944995939,51,1
 2019/1/24,adoção,lore ipsum,20523737300,3,1
 2019/4/2,adoção,lore ipsum,24474322320,27,0
 2019/4/12,adoção,lore ipsum,12624839640,88,1
@@ -61,7 +61,7 @@ data,titulo,descricao,usuario_cpf,pet_id,status
 2019/3/19,adoção,lore ipsum,54656337609,11,0
 2019/3/30,adoção,lore ipsum,27117082682,90,1
 2019/1/13,adoção,lore ipsum,71340961571,37,0
-2019/3/29,adoção,lore ipsum,5643190311,42,0
+2019/3/29,adoção,lore ipsum,05643190311,42,0
 2019/2/13,adoção,lore ipsum,36218875393,9,0
 2019/3/26,adoção,lore ipsum,32056274230,80,1
 2019/4/8,adoção,lore ipsum,52175390543,17,1
